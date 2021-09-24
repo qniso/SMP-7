@@ -1,0 +1,1029 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row {
+  margin-bottom: 0px;
+}
+
+.navbar-fixed,
+.nav-list,
+a {
+  height: 78px;
+}
+
+.container {
+  max-width: 1082px;
+}
+
+nav {
+  height: 78px !important;
+  background-color: #F7F9FB;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-wrapper i {
+  width: 78px;
+  height: 78px !important;
+  line-height: 78px !important;
+  text-align: center;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.mobile-menu {
+  background-color: #0036D5;
+}
+.mobile-menu a {
+  text-align: left !important;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.mobile-menu tr {
+  border-bottom: 1px solid #3160D5;
+}
+.mobile-menu .container {
+  max-width: 534px;
+  margin-bottom: 574px;
+}
+
+.mobile-footer .mobile-social {
+  color: #FFFFFF;
+}
+.mobile-footer .mobile-social ul {
+  font-size: 13px;
+}
+.mobile-footer .mobile-social ul li {
+  line-height: 20px;
+}
+.mobile-footer .mobile-social p {
+  margin-top: 20px;
+  font-size: 13px;
+}
+.mobile-footer .mobile-social .social-madia {
+  float: right;
+  margin-top: 7px;
+}
+.mobile-footer .mobile-social .social-madia a:nth-child(1) {
+  margin-right: 16px;
+}
+
+.sidenav-trigger {
+  height: 78px !important;
+}
+
+.must-logo img {
+  padding-top: 20px;
+}
+
+.nav-list a {
+  font-size: 12px;
+  padding-top: 5px;
+  color: #0036D5;
+}
+
+.menu-burder {
+  background-color: #0036D5;
+}
+
+.sidenav {
+  width: 100%;
+  top: auto;
+}
+
+.sidenav-overlay {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main-banner {
+  height: 673px;
+  padding-top: 120px;
+  background-position: center;
+  background-image: url(../img/main-banner.png);
+}
+
+.career-banner {
+  height: 591px;
+  padding-top: 120px;
+  background-position: center;
+  background-image: url(../img/career-bg.png);
+}
+
+.move-fintech {
+  max-height: 836px;
+  padding-top: 70px;
+  padding-bottom: 140px;
+  background-image: url(../img/career-main.png);
+  background-position: center;
+}
+.move-fintech .must-pay-table {
+  background-color: #0036D5;
+}
+
+.must-pay-table {
+  margin-top: 10px;
+}
+.must-pay-table h2 {
+  padding: 40px 0 0 24px;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.we-search {
+  padding-top: 48px;
+}
+.we-search p {
+  padding-left: 24px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.we-search table span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #EC6B00;
+}
+.we-search table p {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.we-search table tr {
+  border-bottom: 1px solid #6588DF;
+}
+
+.employee-ability {
+  margin-bottom: 64px;
+}
+
+.commpany-banner h1 {
+  font-weight: 700;
+  font-size: 46px;
+  color: #0036D5;
+}
+.commpany-banner p {
+  padding: 8px 0 0 0;
+  font-size: 12px;
+  color: #535353;
+  font-weight: 500;
+}
+
+.commpany-text p {
+  font-family: "Manrope", sans-serif;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #171717;
+}
+.commpany-text p:nth-child(1) {
+  padding-bottom: 24px;
+}
+
+.build-with-us h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #171717;
+  margin-bottom: 32px;
+}
+.build-with-us p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #535353;
+}
+
+.projects {
+  margin-bottom: 120px;
+}
+
+.masspay-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 348px !important;
+  background-color: #0036D5;
+  padding: 0 0 24px 24px;
+  margin-bottom: 20px;
+}
+.masspay-project h4 {
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.masspay-project p {
+  padding-top: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+.neo-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 348px !important;
+  padding: 0 0 24px 24px;
+  background: #14CBDA;
+}
+.neo-project h4 {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 500;
+}
+.neo-project p {
+  padding-top: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+
+.concordpay-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 716px;
+  padding: 0 0 24px 24px;
+  background-image: url(../img/CP-internt.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.concordpay-project h4 {
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.concordpay-project p {
+  padding-top: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+.cp-fintech-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 348px !important;
+  padding: 0 0 24px 24px;
+  background: #00E193;
+  margin: 0 0 20px 0;
+}
+.cp-fintech-project h4 {
+  font-size: 20px;
+  color: #0036D5;
+  font-weight: 500;
+}
+.cp-fintech-project p {
+  padding-top: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #0036D5;
+}
+
+.more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 24px 24px;
+  margin: 0 0 20px 0;
+  height: 348px;
+  border: 1px solid #0036D5;
+}
+.more h4 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #0036D5;
+}
+.more .link-more {
+  width: 173px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.more .link-arrow {
+  padding: 10.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.advise-card {
+  margin: 120px 0 120px 0;
+}
+
+.advise-text h3 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #171717;
+}
+.advise-text p {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.cards {
+  margin-top: 40px;
+}
+
+.what-advise {
+  height: 198px;
+  background: #F7F9FB;
+  padding: 32px 24px 64px 24px !important;
+}
+.what-advise h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.what-advise p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.what-advise .recive-icon img:nth-child(2) {
+  display: none;
+}
+
+.cards .row:nth-child(1) {
+  border-bottom: 1px solid #9AB0E9;
+}
+
+.cards .what-advise:nth-child(1) {
+  border-right: 1px solid #9AB0E9;
+}
+
+.what-advise:hover {
+  background: #0036D5;
+  color: #ffff;
+}
+.what-advise:hover .recive-icon img:nth-child(1) {
+  display: none;
+}
+.what-advise:hover .recive-icon img:nth-child(2) {
+  display: block;
+}
+
+.our-team {
+  padding-top: 120px;
+  background-color: #0036D5;
+}
+.our-team h3 {
+  color: white;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: bold;
+}
+.our-team p {
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.our-projects h2 {
+  margin: 40px 0 48px 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+.employee {
+  margin-top: 56px;
+}
+.employee h4 {
+  margin-top: 24px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.employee p {
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.our-staff .row:nth-child(1) {
+  margin-top: 72px;
+}
+
+.our-staff {
+  padding-bottom: 120px;
+}
+
+.our-staff .row:nth-child(3) .employee {
+  margin-bottom: auto;
+}
+
+.our-staff .row:nth-child(3) .col:nth-child(1) {
+  display: none;
+}
+
+.we-looking-for {
+  padding: 120px 0;
+  background-color: #F7F9FB;
+}
+.we-looking-for .container {
+  max-width: 1082px;
+}
+
+.about {
+  border-bottom: 1px solid #E0E2E6;
+  margin-bottom: 80px;
+}
+.about h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #0036D5;
+  padding-bottom: 80px;
+}
+
+.search-now h4 {
+  height: 88px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.job-offer {
+  padding: 16px 0 0 16px;
+  background-color: white;
+  position: relative;
+  margin-bottom: 20px;
+}
+.job-offer h4 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.job-offer p {
+  height: 20px;
+  margin-top: 5px;
+}
+
+.job-offer .container {
+  width: 100%;
+}
+
+.job-link {
+  background-image: url(../img/link-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+  padding: 6px;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.job-link img {
+  width: 14px;
+  height: 14px;
+}
+
+.job-offer:hover {
+  background-color: #EC6B00;
+  color: white;
+}
+.job-offer:hover .job-link {
+  background-color: blue;
+  background-image: url(../img/link-arrow-atcive.svg);
+}
+
+.about-job {
+  margin-top: 5px;
+}
+.about-job li {
+  list-style-type: disc !important;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.about-welcome {
+  margin-bottom: 88px;
+}
+.about-welcome h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #171717;
+}
+
+.position-text h3 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.position-text p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 56px;
+}
+
+.find-position {
+  padding: 120px 0 120px 0;
+  background: #0036D5;
+}
+
+.inputs input {
+  padding-left: 16px !important;
+  height: 60px !important;
+  margin-bottom: 24px !important;
+  outline-style: none !important;
+  border-radius: 4px !important;
+  border: none !important;
+  border-color: none !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+}
+.inputs input:focus {
+  outline: 0 !important;
+}
+.inputs input::-webkit-input-placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.inputs input::-moz-placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.inputs input:-ms-input-placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.inputs input::-ms-input-placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.inputs input::placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.input-file .resume {
+  margin-left: 20px !important;
+}
+.input-file button {
+  height: 60px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 20px !important;
+  background: #EC6B00;
+  border-radius: 4px;
+  border: none;
+  padding: 16px 0 16px 0 !important;
+}
+
+.resume {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #CDD8F4;
+  padding: 102px 0 102px 0 !important;
+  margin-bottom: 19px;
+  border: 3px dashed #9AB0E9;
+  border-radius: 4px;
+}
+.resume input {
+  display: none;
+}
+
+footer {
+  background-color: #0036D5;
+}
+footer .footer-logo {
+  margin-top: 29px;
+}
+footer .footer-nav {
+  margin-top: 36px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+footer .footer-nav a {
+  color: #FFFFFF;
+}
+footer .footer-nav li {
+  margin-bottom: 8px;
+}
+footer .email,
+footer .phone,
+footer .social-madia {
+  margin-top: 36px;
+  color: #FFFFFF;
+}
+footer .email {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 5000;
+}
+footer .phone {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+}
+footer .social-madia a:nth-child(1) {
+  margin-right: 16px;
+}
+
+.career-footer {
+  border-top: 1px solid #6588DF;
+}
+
+.social {
+  margin-top: 20px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.social p {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 5000;
+}
+.social li {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.footer-copyright p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;
+  opacity: 0.4;
+  padding: 40px 0 16px 0;
+}
+
+@media screen and (max-width: 1487px) {
+  .employee img {
+    max-width: 240px;
+  }
+}
+@media screen and (max-width: 1417px) {
+  .employee img {
+    max-width: 220px;
+  }
+}
+@media screen and (max-width: 1396px) {
+  .employee h4 {
+    width: 200px;
+    font-size: 18px;
+  }
+  .employee img {
+    max-width: 220px;
+  }
+}
+@media screen and (max-width: 1264px) {
+  .employee img {
+    max-width: 205px;
+  }
+
+  .job-offer h4 {
+    font-size: 18px;
+  }
+  .job-offer p {
+    font-size: 12px;
+  }
+  .job-offer .about-job li {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1208px) {
+  .employee img {
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .employee img {
+    max-width: 195px;
+  }
+  .employee p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .employee img {
+    max-width: 190px;
+  }
+  .employee h4 {
+    font-size: 17px;
+  }
+  .employee p {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 1106px) {
+  .employee img {
+    max-width: 180px;
+  }
+
+  .job-offer h4 {
+    font-size: 16px;
+  }
+  .job-offer p {
+    font-size: 12px;
+  }
+  .job-offer .about-job li {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 1052px) {
+  .employee img {
+    max-width: 170px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .career-banner {
+    background-image: url(../img/career-tablet.png);
+    background-position: center;
+  }
+
+  .mobile-menu .container {
+    max-width: 534px;
+  }
+
+  .must-logo {
+    margin-left: 5px;
+  }
+
+  .social {
+    margin-top: 36px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  nav {
+    border-bottom: 1px solid #E0E2E6;
+  }
+  nav .sidenav-trigger {
+    margin: 0 !important;
+  }
+  nav .container {
+    width: 100%;
+  }
+  nav .must-logo {
+    margin-left: 24px;
+  }
+
+  .commpany-text {
+    margin-top: 56px;
+  }
+
+  .our-projects h2 {
+    margin: 64px 0 48px 0;
+  }
+
+  .cp-fintech-project,
+.more {
+    margin-top: 20px;
+  }
+
+  .what-advise {
+    height: 230px;
+  }
+
+  .our-team {
+    padding-top: 64px;
+  }
+
+  .our-staff .row:nth-child(2) .col:nth-child(3) {
+    display: none;
+  }
+
+  .our-staff .row:nth-child(1) {
+    margin-top: 64px;
+  }
+
+  .employee h4 {
+    max-width: 259.3px;
+  }
+  .employee img {
+    max-width: 256px;
+  }
+
+  .about h2 {
+    padding: 0 0 64px 24px;
+  }
+
+  .search-now h4 {
+    margin: 0 0 24px 24px;
+    width: 278px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .job-offer h4 {
+    font-size: 20px;
+  }
+  .job-offer p {
+    font-size: 14px;
+  }
+  .job-offer .about-job li {
+    font-size: 14px;
+  }
+
+  .job-cards .job-offer:nth-child(2) {
+    height: 146px;
+  }
+
+  .job-offer p {
+    margin-top: 16px;
+  }
+  .job-offer .about-job {
+    margin-top: 16px;
+  }
+}
+@media screen and (max-width: 916px) {
+  .employee img {
+    max-width: 240px;
+  }
+}
+@media screen and (max-width: 866px) {
+  .employee img {
+    max-width: 220px;
+  }
+}
+@media screen and (max-width: 795px) {
+  .employee img {
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 728px) {
+  .employee img {
+    max-width: 180px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .employee img {
+    max-width: 170px;
+  }
+}
+@media screen and (max-width: 612px) {
+  .employee img {
+    max-width: 165px;
+  }
+  .employee h4 {
+    font-size: 15px;
+  }
+  .employee p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 360px;
+  }
+
+  .mobile-menu .container {
+    margin-bottom: 522px;
+  }
+
+  .main-banner {
+    height: auto;
+    background-image: none;
+    background-color: #F7F9FB;
+  }
+  .main-banner .commpany-text {
+    margin-top: 114px;
+  }
+
+  .more {
+    margin-top: 0;
+  }
+
+  .what-advise {
+    height: auto;
+  }
+
+  .concordpay-project {
+    margin-top: 20px;
+  }
+
+  .projects {
+    margin-bottom: 48px;
+  }
+
+  .team-introduction p {
+    margin-top: 24px;
+  }
+
+  .our-staff .row:nth-child(3) .col:nth-child(1) {
+    display: block;
+  }
+
+  .about h2 {
+    padding: 0 0 48px 24px;
+  }
+
+  .job-offer {
+    height: 338px;
+  }
+
+  .we-looking-for ul {
+    margin-top: 16px;
+  }
+  .we-looking-for .job-offer:nth-child(2) {
+    height: 230px;
+  }
+  .we-looking-for .job-offer:nth-child(3) {
+    height: 260px;
+  }
+
+  .footer-copyright p {
+    text-align: left;
+    padding: 48px 0 16px 0.75rem;
+  }
+}
+@media screen and (max-width: 374px) {
+  .container {
+    width: 340px;
+  }
+}
