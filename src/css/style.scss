@@ -374,11 +374,14 @@ nav {
     background: #F7F9FB;
     padding: 32px 24px 64px 24px !important;
     h4 {
+        color: #0036D5;
         font-weight: 500;
         font-size: 20px;
         line-height: 30px;
+        margin-bottom: 16px;
     }
     p {
+        color: #3160D5;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -399,7 +402,10 @@ nav {
 
 .what-advise:hover {
     background: #0036D5;
-    color: #ffff;
+    h4,
+    p {
+        color: #ffff;
+    }
     .recive-icon img:nth-child(1) {
         display: none
     }
@@ -724,10 +730,39 @@ footer {
     }
 }
 
+@media screen and (max-width:1501px) {
+    .we-search {
+        p {
+            font-size: 17px;
+        }
+    }
+}
+
+@media screen and (max-width: 1475px) {
+    .we-search {
+        table {
+            span {
+                font-size: 19px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width:1487px) {
     .employee {
         img {
             max-width: 240px;
+        }
+    }
+}
+
+@media screen and (max-width:1436px) {
+    .we-search {
+        p {
+            font-size: 16px;
         }
     }
 }
@@ -740,6 +775,19 @@ footer {
     }
 }
 
+@media screen and (max-width:1397px) {
+    .we-search {
+        table {
+            span {
+                font-size: 19px;
+            }
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width:1396px) {
     .employee {
         h4 {
@@ -748,6 +796,49 @@ footer {
         }
         img {
             max-width: 220px;
+        }
+    }
+}
+
+@media screen and (max-width: 1368px) {
+    .we-search {
+        p {
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 1319px) {
+    .we-search {
+        table {
+            span {
+                font-size: 18px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+    .must-pay-table h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .we-search {
+        p {
+            font-size: 14.5px;
+        }
+    }
+}
+
+@media screen and (max-width: 1269px) {
+    .must-pay-table h2 {
+        font-size: 24.5px;
+    }
+    .we-search {
+        p {
+            font-size: 14px;
         }
     }
 }
@@ -773,10 +864,61 @@ footer {
     }
 }
 
+@media screen and (max-width:1246px) {
+    .must-pay-table h2 {
+        font-size: 24px;
+    }
+    .we-search {
+        table {
+            span {
+                font-size: 18px;
+            }
+            p {
+                font-size: 11.5px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1233px) {
+    .must-pay-table h2 {
+        font-size: 23.5px;
+    }
+    .we-search {
+        p {
+            font-size: 13.5px;
+        }
+    }
+}
+
 @media screen and (max-width:1208px) {
     .employee {
         img {
             max-width: 200px;
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .we-search {
+        p {
+            font-size: 15px;
+        }
+        table {
+            span {
+                font-size: 18px;
+            }
+            p {
+                font-size: 12.5px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1187px) {
+    .we-search {
+        p {
+            font-size: 14px;
         }
     }
 }
@@ -790,9 +932,43 @@ footer {
             font-size: 12px;
         }
     }
+    .we-search {
+        p {
+            font-size: 14.5px;
+        }
+        table {
+            span {
+                font-size: 18px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1158px) {
+    .we-search {
+        p {
+            font-size: 14px;
+        }
+        table {
+            span {
+                font-size: 18px;
+            }
+            p {
+                font-size: 11.5px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:1130px) {
+    .we-search {
+        p {
+            font-size: 13.5px;
+        }
+    }
     .employee {
         img {
             max-width: 190px;
@@ -807,6 +983,14 @@ footer {
 }
 
 @media screen and (max-width: 1106px) {
+    .we-search {
+        p {
+            font-size: 13px;
+        }
+    }
+    .must-pay-table h2 {
+        font-size: 22.5px;
+    }
     .employee {
         img {
             max-width: 180px;
@@ -827,6 +1011,38 @@ footer {
     }
 }
 
+@media screen and (max-width: 1096px) {
+    .we-search {
+        table {
+            span {
+                font-size: 17px;
+            }
+            p {
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .must-pay-table h2 {
+        font-size: 22px;
+    }
+    .we-search {
+        p {
+            font-size: 12.5px;
+        }
+        table {
+            span {
+                font-size: 16px;
+            }
+            p {
+                font-size: 10.5px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width:1052px) {
     .employee {
         img {
@@ -835,7 +1051,72 @@ footer {
     }
 }
 
+@media screen and (max-width: 1035px) {
+    .must-pay-table h2 {
+        font-size: 21.5px;
+    }
+    .we-search {
+        p {
+            font-size: 12px;
+        }
+        table {
+            span {
+                font-size: 16px;
+            }
+            p {
+                font-size: 10.5px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .we-search {
+        p {
+            font-size: 11.5px;
+        }
+        table {
+            span {
+                font-size: 15px;
+            }
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1013px) {
+    .must-pay-table h2 {
+        font-size: 21px;
+    }
+}
+
 @media screen and (max-width:992px) {
+    .move-fintech,
+    .advise-card,
+    .we-looking-for,
+    .find-position {
+        .container {
+            width: 90%;
+        }
+    }
+    .must-pay-table h2 {
+        font-size: 25px;
+    }
+    .we-search {
+        p {
+            font-size: 15px;
+        }
+        table {
+            span {
+                font-size: 19px;
+            }
+            p {
+                font-size: 13px;
+            }
+        }
+    }
     .career-banner {
         background-image: url(../img/career-tablet.png);
         background-position: center;
@@ -943,6 +1224,20 @@ footer {
             margin-top: 16px;
         }
     }
+    .career-cards {
+        .job-offer:nth-child(2) {
+            height: auto;
+        }
+        .job-offer {
+            height: auto;
+            p {
+                margin-top: 5px;
+            }
+        }
+        .about-job {
+            margin-top: 5px;
+        }
+    }
 }
 
 @media screen and (max-width:916px) {
@@ -1016,8 +1311,40 @@ footer {
             margin-top: 114px;
         }
     }
+    .move-fintech {
+        padding-bottom: 0;
+        max-height: none;
+        padding-top: 0;
+        background: #0036D5;
+    }
+    .must-pay-table h2 {
+        padding: 48px 0 0 0;
+    }
+    .we-search {
+        padding-top: 32px;
+        p {
+            padding-left: 0;
+            font-size: 16px;
+        }
+        table {
+            span {
+                font-size: 20px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+    .advise-card {
+        margin: 48px 0 48px 0;
+    }
     .more {
         margin-top: 0;
+    }
+    .cards .what-advise:nth-child(1) {
+        border-right: none;
+        border-bottom: 1px solid #9AB0E9;
+        ;
     }
     .what-advise {
         height: auto;
@@ -1057,6 +1384,16 @@ footer {
         }
         .job-offer:nth-child(3) {
             height: 260px;
+        }
+    }
+    .career-cards {
+        .job-offer:nth-child(2) {
+            height: auto;
+        }
+        .job-offer {
+            p {
+                margin: 16px 0 8px 0;
+            }
         }
     }
     .footer-copyright {
