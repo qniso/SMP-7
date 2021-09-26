@@ -133,6 +133,34 @@ nav ul a:hover {
   background-image: url(../img/career-bg.png);
 }
 
+.send-resume {
+  height: 20px;
+  background-color: #00E193;
+}
+
+.job-banner {
+  height: 270px;
+  padding-top: 120px;
+  background-color: #F7F9FB;
+}
+.job-banner h1 {
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 54px;
+}
+
+.about-resume {
+  margin: 0;
+}
+.about-resume li {
+  list-style-type: disc !important;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .move-fintech {
   max-height: 836px;
   padding-top: 70px;
@@ -662,7 +690,7 @@ nav ul a:hover {
   color: #CDD8F4;
   padding: 102px 0 102px 0 !important;
   margin-bottom: 19px;
-  border: 3px dashed #9AB0E9;
+  border: 2px dashed #9AB0E9;
   border-radius: 4px;
 }
 .resume input {
@@ -1142,9 +1170,44 @@ footer .social-madia a:nth-child(1) {
     margin-top: 5px;
   }
 }
+@media screen and (max-width: 932px) {
+  .we-search table span {
+    font-size: 15px;
+  }
+  .we-search table p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .we-search p {
+    font-size: 14.5px;
+  }
+}
 @media screen and (max-width: 916px) {
   .employee img {
     max-width: 240px;
+  }
+}
+@media screen and (max-width: 902px) {
+  .must-pay-table h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .we-search p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 876px) {
+  .must-pay-table h2 {
+    font-size: 23px;
+  }
+
+  .we-search table span {
+    font-size: 15px;
+  }
+  .we-search table p {
+    font-size: 11px;
   }
 }
 @media screen and (max-width: 866px) {
@@ -1152,14 +1215,96 @@ footer .social-madia a:nth-child(1) {
     max-width: 220px;
   }
 }
+@media screen and (max-width: 836px) {
+  .must-pay-table h2 {
+    font-size: 22px;
+  }
+
+  .we-search p {
+    font-size: 12px;
+  }
+  .we-search table span {
+    font-size: 15px;
+  }
+  .we-search table p {
+    font-size: 10.5px;
+  }
+}
+@media screen and (max-width: 803px) {
+  .must-pay-table h2 {
+    font-size: 21px;
+  }
+}
 @media screen and (max-width: 795px) {
   .employee img {
     max-width: 200px;
+  }
+
+  .we-search table span {
+    font-size: 14px;
+  }
+  .we-search table p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 776px) {
+  .must-pay-table h2 {
+    font-size: 20px;
+  }
+
+  .we-search p {
+    font-size: 11.5px;
+  }
+}
+@media screen and (max-width: 764px) {
+  .we-search table span {
+    font-size: 13px;
+  }
+  .we-search table p {
+    font-size: 9.5px;
+  }
+}
+@media screen and (max-width: 752px) {
+  .we-search p {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 736px) {
+  .must-pay-table h2 {
+    font-size: 19px;
+  }
+
+  .we-search p {
+    font-size: 10.5px;
+  }
+  .we-search table span {
+    font-size: 13px;
+  }
+  .we-search table p {
+    font-size: 9px;
   }
 }
 @media screen and (max-width: 728px) {
   .employee img {
     max-width: 180px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .must-pay-table h2 {
+    font-size: 18px;
+  }
+
+  .we-search p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 671px) {
+  .must-pay-table h2 {
+    font-size: 17px;
+  }
+
+  .we-search p {
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -1275,8 +1420,18 @@ footer .social-madia a:nth-child(1) {
   .career-cards .job-offer:nth-child(2) {
     height: auto;
   }
+  .career-cards .job-offer h4 {
+    width: 300px;
+  }
   .career-cards .job-offer p {
+    width: 300px;
     margin: 16px 0 8px 0;
+  }
+
+  .input-file .resume {
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 0 !important;
   }
 
   .footer-copyright p {
