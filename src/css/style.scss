@@ -137,11 +137,6 @@ nav {
     background-image: url(../img/career-bg.png);
 }
 
-.send-resume {
-    height: 20px;
-    background-color: #00E193;
-}
-
 .job-banner {
     height: 270px;
     padding-top: 120px;
@@ -163,6 +158,36 @@ nav {
         font-size: 14px;
         line-height: 20px;
     }
+}
+
+.requirement-job {
+    padding: 0 !important;
+}
+
+.requirement {
+    .col {
+        margin-top: 80px;
+    }
+}
+
+.will-be-plus {
+    .col {
+        margin: 27px 0 27px 0;
+    }
+}
+
+.responsibilite {
+    .col:nth-child(2) {
+        margin-bottom: 120px;
+    }
+}
+
+.send-resume {
+    border: 1px solid #0036D5;
+}
+
+.resume-block {
+    margin-top: 80px;
 }
 
 .move-fintech {
@@ -669,6 +694,66 @@ nav {
         border: none;
         padding: 16px 0 16px 0 !important;
     }
+}
+
+.import-resume {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0036D5;
+    padding: 32px 0 !important;
+    margin: 32px 0 19px 0;
+    border: 2px dashed #9AB0E9;
+    border-radius: 4px;
+    input {
+        display: none;
+    }
+}
+
+.send-resume {
+    h3 {
+        margin: 24px 0 8px 0;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #0036D5;
+    }
+    p {
+        margin-bottom: 32px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #535353;
+    }
+    button {
+        height: 60px;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        background: #EC6B00;
+        border-radius: 4px;
+        border: none;
+        padding: 16px 0 16px 0 !important;
+        margin-bottom: 16px;
+    }
+}
+
+.send-resume {
+    .email-form {
+        padding: 0;
+        input::placeholder {
+            padding-left: 16px;
+        }
+        input {
+            border: 0.5px solid #535353;
+            border-radius: 4px;
+        }
+    }
+}
+
+.send-resume .col:nth-child(1) {
+    padding: 0;
 }
 
 .resume {
